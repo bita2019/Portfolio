@@ -19,10 +19,10 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignment: "center", color: "white" }}>
-          <DiCssdeck size="2rem" />
-          <Span>Portfolio</Span>
-        </a>
+        {/* <a style={{ display: "flex", alignment: "center", color: "white" }}> */}
+        <DiCssdeck size="2rem" />
+        <Span>Portfolio</Span>
+        {/* </a> */}
       </Link>
     </Div1>
     <Div2>
