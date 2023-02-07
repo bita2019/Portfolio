@@ -18,6 +18,9 @@ const Hero = (props) => (
       <SectionText>
         We use JavaScript for both frontend and backend!!!
       </SectionText>
+      <Button onClick={() => (window.location = "https//google.com")}>
+        Learn More
+      </Button>
     </LeftSection>
   </Section>
 );
