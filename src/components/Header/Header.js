@@ -20,7 +20,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         {/* <a style={{ display: "flex", alignment: "center", color: "white" }}> */}
-        <DiCssdeck size="2rem" />
+        <DiCssdeck size="2rem" color="white" />
         <Span>Portfolio</Span>
         {/* </a> */}
       </Link>

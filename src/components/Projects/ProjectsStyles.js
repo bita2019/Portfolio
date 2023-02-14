@@ -64,13 +64,13 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 10 50px;
   color: #e4e6e7;
   font-style: 2rem;
-  line-height: 24px;
+  line-height: 25px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.3rem;
+    padding: 1rem;
   }
 `;
 

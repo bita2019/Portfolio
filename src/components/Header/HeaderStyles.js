@@ -49,6 +49,7 @@ export const Div3 = styled.div`
 export const Span = styled.span`
   font-size: 2rem;
   margin-top: 10px;
+  color: #fff;
 `;
 // Navigation Links
 export const NavLink = styled.span`
