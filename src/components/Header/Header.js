@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
 import Projects from "../Projects/Projects";
 
-import Technologies from "../Technologies/Technologies";
+import { Technologies } from "../Technologies/Technologies";
 import {
   Container,
   Div1,
@@ -27,12 +27,12 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#Projects">
+        <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#technologies">
+        <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
